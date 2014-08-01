@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GMRssKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of GMRssKit."
 
   s.homepage     = "https://github.com/lerosua/GMRssKit"
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "http://github.com/lerosua/GMRssKit.git", :tag => "0.0.1" }
+  s.source       = { :git => "http://github.com/lerosua/GMRssKit.git", :tag => "0.0.2" }
 
 
   s.source_files  = "RssKit/core", "RssKit/core/*.{h,m}"
