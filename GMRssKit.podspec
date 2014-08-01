@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "http://github.com/lerosua/GMRssKit.git", :tag => "0.0.1" }
 
 
-  s.source_files  = "RssKit/core", "RssKit/core/*h,m}"
+  s.source_files  = "RssKit/core", "RssKit/core/*.{h,m}"
 
   s.requires_arc = true
   s.dependency "XHRefreshControl", '~> 1.8'
