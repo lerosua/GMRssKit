@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source_files  = "RssKit/core", "RssKit/core/*h,m}"
 
   s.requires_arc = true
-  s.dependency 'XHRefreshControl', '~> 1.8'
-  s.dependency 'AFNetworking', '~>1.3.4'
+  s.dependency "XHRefreshControl", '~> 1.8'
+  s.dependency "AFNetworking", '~>1.3.4'
 
 end
