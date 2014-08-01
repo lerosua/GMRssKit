@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "GMRssKit"
   s.version      = "0.0.2"
-  s.summary      = "A short description of GMRssKit."
+  s.summary      = "GMRssKit is Rss gether for idot"
 
   s.homepage     = "https://github.com/lerosua/GMRssKit"
 
@@ -22,13 +22,13 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "http://github.com/lerosua/GMRssKit.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/lerosua/GMRssKit.git", :tag => "0.0.2" }
 
 
   s.source_files  = "RssKit/core", "RssKit/core/*.{h,m}"
 
   s.requires_arc = true
-  s.dependency "XHRefreshControl", '~> 1.8'
+  s.dependency "XHRefreshControl", '~> 2.0'
   s.dependency "AFNetworking", '~>1.3.4'
 
 end
